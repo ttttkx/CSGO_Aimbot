@@ -1,7 +1,8 @@
 # Aimbot：基于yolov5的csgo游戏自瞄外挂
 
 ## requirements
-### `pip install -r requirements.txt`
+
+ `pip install -r requirements.txt`
 
 gitpython
 
