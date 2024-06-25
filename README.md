@@ -36,11 +36,13 @@ torchvision>=0.8.1
 
 验证集上的precision（查准率）0。93，recall（查全率）0.836，mAP_0.5（阈值为0.5时计算得到的平均精度）：0.871
 
-训练过程中loss和想挂吧metric的变化：
+训练过程中loss和相关metric的变化：
 
 ![results](https://github.com/ttttkx/CSGO_Aimbot/assets/144672418/fe9a4314-e40e-4e44-8f6d-b195402b1d74)
 
+最终模型在验证集上的可视化结果：
 
+![val_batch2_labels](https://github.com/ttttkx/CSGO_Aimbot/assets/144672418/e38a7497-9fd0-40e3-8ca8-e3ed086c9182)
 
 
 
