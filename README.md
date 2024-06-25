@@ -4,7 +4,9 @@
 ### Usage: pip install -r requirements.txt
 
 gitpython
+
 ipython  # interactive notebook
+
 matplotlib>=3.2.2
 numpy>=1.18.5
 opencv-python>=4.1.1
