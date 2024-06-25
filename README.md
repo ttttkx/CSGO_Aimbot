@@ -28,5 +28,11 @@ torchvision>=0.8.1
 
 **更多依赖信息：requirements.txt**
 
+## 训练结果与性能评估
+
+![results](https://github.com/ttttkx/CSGO_Aimbot/assets/144672418/fe9a4314-e40e-4e44-8f6d-b195402b1d74)
+
+
+
 
 
