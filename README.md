@@ -4,9 +4,11 @@
 
 本项目使用yolov5，训练了427张csgo的游戏截图，实现了csgo的自动瞄准、自动射击功能。
 
-识别目标位置后，能够聚焦到目标周边的小范围进一步识别，对于小目标具有较好的识别效果、并具备较高性能。
+## 项目亮点
 
-推理采用CPU，硬件要求较低，适用面广。
+1.识别目标位置后，能够聚焦到目标周边的小范围进一步识别，对于小目标具有较好的识别效果、并具备较高性能。
+
+2.推理采用CPU，硬件要求较低，适用面广。
 
 ## requirements
 
@@ -26,15 +28,15 @@ torchvision>=0.8.1
 
 ## 模型训练
 
-数据集：训练集337张图片，验证集90张图片
+**数据集**：训练集337张图片，验证集90张图片
 
-训练参数：epoch 100，batch_size 16，img_size 640
+**训练参数**：epoch 100，batch_size 16，img_size 640
 
-模型训练：
+**模型训练**：
 
 `python train.py --img 640 --batch 16 --epochs 100 --data csgo.yaml --cfg models/yolov5s.yaml --weights yolov5s.pt`
 
-模型测试：
+**模型测试**：
 
 `python detect.py --weights runs/train/exp/weights/best.pt --source datasets/csgo/images/val/screenshot_184.png`
 
@@ -44,11 +46,11 @@ torchvision>=0.8.1
 
 验证集上的precision（查准率）0.93，recall（查全率）0.836，mAP_0.5（阈值为0.5时计算得到的平均精度）：0.871
 
-训练过程中loss和相关metric的变化：
+**训练过程中loss和相关metric的变化：**
 
 ![results](https://github.com/ttttkx/CSGO_Aimbot/assets/144672418/fe9a4314-e40e-4e44-8f6d-b195402b1d74)
 
-最终模型在验证集上的可视化结果：
+**最终模型在验证集上的可视化结果：**
 
 ![val_batch2_labels](https://github.com/ttttkx/CSGO_Aimbot/assets/144672418/e38a7497-9fd0-40e3-8ca8-e3ed086c9182)
 
