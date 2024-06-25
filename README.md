@@ -5,19 +5,30 @@
 
 gitpython
 
-ipython  # interactive notebook
+ipython
 
 matplotlib>=3.2.2
+
 numpy>=1.18.5
+
 opencv-python>=4.1.1
+
 Pillow>=7.1.2
-psutil  # system resources
+
+psutil
+
 PyYAML>=5.3.1
+
 requests>=2.23.0
+
 scipy>=1.4.1
-thop>=0.1.1  # FLOPs computation
-torch>=1.7.0  # see https://pytorch.org/get-started/locally (recommended)
+
+thop>=0.1.1
+
+torch>=1.7.0
+
 torchvision>=0.8.1
+
 tqdm>=4.64.0
 
 
