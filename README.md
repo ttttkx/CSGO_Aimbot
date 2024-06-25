@@ -36,13 +36,13 @@ torchvision>=0.8.1
 
 模型测试：
 
-`python detect.py --weights runs/train/exp2/weights/best.pt --source detasets/csgo/images/val/scrrenshoy_184.png`
+`python detect.py --weights runs/train/exp/weights/best.pt --source datasets/csgo/images/val/screenshot_184.png`
 
 ## 训练结果与性能评估
 
 训练结果：权重文件`weights/best.pt`
 
-验证集上的precision（查准率）0。93，recall（查全率）0.836，mAP_0.5（阈值为0.5时计算得到的平均精度）：0.871
+验证集上的precision（查准率）0.93，recall（查全率）0.836，mAP_0.5（阈值为0.5时计算得到的平均精度）：0.871
 
 训练过程中loss和相关metric的变化：
 
