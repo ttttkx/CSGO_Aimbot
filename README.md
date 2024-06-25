@@ -22,23 +22,11 @@ numpy>=1.18.5
 
 opencv-python>=4.1.1
 
-Pillow>=7.1.2
-
-psutil
-
-PyYAML>=5.3.1
-
-requests>=2.23.0
-
-scipy>=1.4.1
-
-thop>=0.1.1
-
 torch>=1.7.0
 
 torchvision>=0.8.1
 
-tqdm>=4.64.0
+**更多依赖信息：requirements.txt**
 
 
 
