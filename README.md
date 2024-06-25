@@ -30,6 +30,14 @@ torchvision>=0.8.1
 
 训练参数：epoch 100，batch_size 16，img_size 640
 
+模型训练：
+
+`python train.py --img 640 --batch 16 --epochs 100 --data csgo.yaml --cfg models/yolov5s.yaml --weights yolov5s.pt`
+
+模型测试：
+
+`python detect.py --weights runs/train/exp2/weights/best.pt --source detasets/csgo/images/val/scrrenshoy_184.png`
+
 ## 训练结果与性能评估
 
 训练结果：权重文件`weights/best.pt`
