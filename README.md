@@ -4,6 +4,9 @@
 
 本项目使用yolov5，训练了427张csgo的游戏截图，实现了csgo的自动瞄准、自动射击功能。
 
+![csgo射击录像片段 (online-video-cutter com)](https://github.com/ttttkx/CSGO_Aimbot/assets/144672418/5a65bbcf-2cd7-44ce-844a-8db768cd2020)
+
+
 ## 项目亮点
 
 1.识别目标位置后，能够聚焦到目标周边的小范围进一步识别，对于小目标具有较好的识别效果、并具备较高性能。
